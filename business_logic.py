@@ -19,7 +19,7 @@ def division(num1, num2):
             if num2 == 0:
                 return "Second Number Cannot be Zero"
             result = num1 / num2
-            return round(result, 2)
+            return result
         else:
             return "Invalid Input"
     else:
@@ -28,10 +28,8 @@ def division(num1, num2):
 def multiplication(num1, num2):
     if num1 and num2:
         if type(num1) == int and type(num2) == int:
-            if num2 == 0:
-                print("Second Number Cannot be Zero")
             result = num1 * num2
-            return round(result, 2)
+            return result
         else:
             return "Invalid Input"
     else:
